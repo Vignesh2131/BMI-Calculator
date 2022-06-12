@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Source+Code+Pro:wght@400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat',sans-serif;
+    color: white;
+}
+h1{
+    font-weight: 700;
+    font-size: 5vh;
+    margin-top: 15vh;
+    padding: 1% 0;
+
+}
+label{
+    font-weight: 500;
+    font-size: 2.5vh;
+    margin-bottom: 1vh;
+}
+span{
+    font-size:1.5vh;
+    font-weight: 600;
+}
+input{
+    padding:1rem 3rem;
+    font-size: 2vh;
+    font-weight: 700;
+    margin-bottom: 1.5vh;
+}
+button{
+  border:none;
+  padding: 5% 10%;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 2.3vh;
+  font-weight: 600;
+  margin:5% 10%;
+}
+.buttons{
+margin-top:3vh;
+}
+.Summary{
+    font-family: 'Source Code Pro',monospace;
+    font-size: 3vh;
+    font-weight: 700;
+    margin-top:4vh;
+    color: white;    
+}
+button:hover{
+    background-color: #ed0e0e;
+    color: white;
+}
+
